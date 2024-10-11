@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+<link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.13/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body>
+    <main>
+      <section>
+        <div class="navbar bg-sky-950 md:h-[100px] text-white gap-[100px]">
+        <div class="navbar-start">
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h8m-8 6h16" />
+              </svg>
+            </div>
+            <ul
+              tabindex="0"
+              class="menu menu-sm dropdown-content bg-base-100  text-black rounded-box z-[1] mt-3 w-52 p-2 shadow">
+              <li><a>HOME</a></li>
+              <li>
+                <a>SHOP</a></li>
+              <li><a>NEWS</a></li>
+              <li><a>CONTACT</a></li>
+            </ul>
+          </div>
+          
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal px-1">
+            <li><a>HOME</a></li>
+            <li><a>SHOP</a>
+            </li>
+            <li><a>NEWS</a></li>
+            <li><a>CONTACT</a></li>
+          </ul>
+        </div>
+        <div>
+          <a class="btn bg-orange-400 text-white border-none w-[100px]">LOGIN</a>
+        </div>
+      </div>
+      
+      
+      <div class="flex justify-center bg-sky-950 md:gap-[200px] md:h-[650px] flex-wrap md:flex-nowrap">
+        
+          <!-- <div class="flex justify-center text-white flex-col px-2 md:w-[400px] mt-8">
+                <h5>Computer-controlled digital transistorized with electronic advance</h5>
+                <h1 class="text-white font-bold text-[40px] mt-4">Honda CBR 300R</h1>
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+                <button class="btn w-[150px] mt-5 bg-orange-400 text-white border-none">Purchase</button>
+              </div>
+            <div ><img  class="md:h-[447px] md:w-[552px] mt-10" src="./image/honda-cbr-300r-2-removebg-preview 1.png" alt=""></div>
+           </div>
+           </div> -->
+    
+               <div class="carousel w-full ">
+                <div id="slide1" class="carousel-item relative w-full justify-center flex flex-wrap md:flex-nowrap">
+                  <div class="flex justify-center text-white flex-col px-2 md:w-[400px] mt-8">
+                    <h5>Computer-controlled digital transistorized with electronic advance</h5>
+                    <h1 class="text-white font-bold text-[40px] mt-4">Honda CBR 300R</h1>
+                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+                    <button class="btn w-[150px] mt-5 bg-orange-600 text-white border-none">Purchase</button>
+                  </div>
+                  <img
+                    src="./image/honda-cbr-300r-2-removebg-preview 1 (1).png"
+                    class="md:h-[447px] md:w-[552px] mt-10" />
+                  <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                    <a href="#slide4" class="btn btn-circle">❮</a>
+                    <a href="#slide2" class="btn btn-circle">❯</a>
+                  </div>
+                </div>
+                <div id="slide2" class="carousel-item relative w-full flex justify-center flex-wrap md:flex-nowrap">
+                    <div class="flex justify-center text-white flex-col px-2 md:w-[400px] mt-8">
+                      <h5>Computer-controlled digital transistorized with electronic advance</h5>
+                      <h1 class="text-white font-bold text-[40px] mt-4">Honda CBR 300R</h1>
+                      Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+                      <button class="btn w-[150px] mt-5 bg-orange-600 text-white border-none">Purchase</button>
+                    </div>
+                    <img
+                      src="./image/33722324_bike019_elscar_rtr_5429 1.png"
+                      class="md:h-[447px] md:w-[552px] mt-10" />
+                  <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                    <a href="#slide1" class="btn btn-circle">❮</a>
+                    <a href="#slide3" class="btn btn-circle">❯</a>
+                  </div>
+                </div>
+                <div id="slide3" class="carousel-item relative w-full flex justify-center flex-wrap md:flex-nowrap">
+                    <div class="flex justify-center text-white flex-col px-2 md:w-[400px] mt-8 ">
+                      <h5>Computer-controlled digital transistorized with electronic advance</h5>
+                      <h1 class="text-white font-bold text-[40px] mt-4">Honda CBR 300R</h1>
+                      Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+                      <button class="btn w-[150px] mt-5 bg-orange-600 text-white border-none">Purchase</button>
+                    </div>
+                    <img
+                      src="./image/33983747_bike007_elscar_rtr_4779 1.png"
+                      class="md:h-[447px] md:w-[552px] mt-10" />
+                  <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                    <a href="#slide2" class="btn btn-circle">❮</a>
+                    <a href="#slide4" class="btn btn-circle">❯</a>
+                  </div>
+                </div>
+            </div>
+            </div>
+            </div>
+        </section> 
+
+
+
+      
+        <section class="md:w-[1440px] md-[600px] mx-auto mt-10">
+          <div class=" flex justify-center flex-col text-center mx-auto">
+            <h1 class="text-[40px] font-bold">Fetured Bikes In This Year</h1>
+            <p class="text-rose-600">Best bike collection</p>
+            </div>
+          <div class="flex justify-center gap-[100px] mt-10 flex-wrap md:flex-nowrap">
+            <div class="card bg-base-100 w-96 shadow-xl">
+              <figure>
+                <img
+                  src="./image/Rectangle 4637 1 (1).png"
+                  alt="Shoes" />
+              </figure>
+            </div>
+            <div class="card bg-base-100 w-96 shadow-xl">
+              <figure>
+                <img
+                  src="./image/Rectangle 4637 1 (1).png"
+                  alt="Shoes" />
+              </figure>
+            </div>
+            <div class="card bg-base-100 w-96 shadow-xl">
+              <figure>
+                <img
+                  src="./image/Rectangle 4637 1 (1).png"
+                  alt="Shoes" />
+              </figure>
+            </div>
+          </div>
+          
+        </section>
+        <section class="mt-[200px] md:w-[1440px] md:h-[600px] mx-auto">
+          <h1 class="text-[40px] font-bold flex justify-center ">Latest News</h1>
+
+          <div class="flex justify-center gap-[50px] mt-10 flex-wrap md:flex-nowrap">
+            <div class="card bg-base-100 w-96 shadow-xl">
+              <figure>
+                <img
+                  src="./image/Project Cover.png"
+                  alt="Shoes" />
+              </figure>
+              <div class="card-body">
+                <h2 class="card-title">Motorcycles & Scooters</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+                <div class="card-actions justify-start mt-5">
+                  <button class="btn text-white bg-orange-400">Read More</button>
+                </div>
+              </div>
+            </div>
+            <div class="card bg-base-100 w-96 shadow-xl">
+              <figure>
+                <img
+                  src="./image/Project Cover (1).png"
+                  alt="Shoes" />
+              </figure>
+              <div class="card-body">
+                <h2 class="card-title">Ducati XDIAVEL S-73</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+                <div class="card-actions justify-start mt-5">
+                  <button class="btn text-white bg-orange-400">Read More</button>
+                </div>
+              </div>
+            </div>
+            <div class="card bg-base-100 w-96 shadow-xl">
+              <figure>
+                <img
+                  src="./image/Project Cover (3).png"
+                  alt="Shoes" />
+              </figure>
+              <div class="card-body">
+                <h2 class="card-title">2021 Honda CBR500R
+                 </h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+                <div class="card-actions justify-start mt-5">
+                  <button class="btn text-white bg-orange-400">Read More</button>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </section>
+
+        <section class="md:w-[1440px] mx-auto mt-[200px]">
+         <div class="text-[40px] font-bold flex justify-center gap-3">
+          <h1 class="  ">Happy</h1>
+          <h1 class="text-orange-400 ">Clients says</h1>
+         </div> 
+          <div class="flex justify-center gap-[50px] flex-wrap md:flex-nowrap mt-10">
+            <div class="card bg-base-100 w-96 shadow-xl">
+              <figure class="px-10 pt-10">
+                <img
+                  src="./image/cover.png"
+                  alt="Shoes"
+                  class="rounded-xl" />
+              </figure>
+              <div class="card-body items-center text-center">
+                <img src="./image/stars.png" alt="">
+                <p>Slate helps you see how 
+                  many more days you need 
+                  to work to reach your financial 
+                  goal for the month and year.</p>
+                <div class="card-actions text-primary">
+                  <p>Regina Miles</p>
+                </div>
+                <div class="card-actions">
+                  <p>Banker</p>
+                
+                </div>
+              </div>
+            </div>
+            <div class="card bg-base-100 w-96 shadow-xl">
+              <figure class="px-10 pt-10">
+                <img
+                  src="./image/circle-box circle-xl mx-auto.png"
+                  alt="Shoes"
+                  class="rounded-xl" />
+              </figure>
+              <div class="card-body items-center text-center">
+                <img src="./image/stars.png" alt="">
+                <p>Slate helps you see how 
+                  many more days you need 
+                  to work to reach your financial 
+                  goal for the month and year.</p>
+                <div class="card-actions text-primary">
+                  <p>Regina Miles</p>
+                </div>
+                <div class="card-actions">
+                  <p>Banker</p>
+                
+                </div>
+              </div>
+            </div>
+            <div class="card bg-base-100 w-96 shadow-xl">
+              <figure class="px-10 pt-10">
+                <img
+                  src="./image/circle-box circle-xl mx-auto (1).png"
+                  alt="Shoes"
+                  class="rounded-xl" />
+              </figure>
+              <div class="card-body items-center text-center">
+                <img src="./image/stars.png" alt="">
+                <p>Slate helps you see how 
+                  many more days you need 
+                  to work to reach your financial 
+                  goal for the month and year.</p>
+                <div class="card-actions text-primary">
+                  <p>Regina Miles</p>
+                
+                </div>
+                <div class="card-actions">
+                  <p>Banker</p>
+                
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+
+
+        <section class="md:w-[1440px] mx-auto mt-[200px]">
+          <div class="text-[40px] font-bold flex justify-center gap-3 flex-wrap md:flex-nowrap">
+            <h1 class="  ">Frequeintly Ask</h1>
+            <h1 class="text-orange-400 "> Questions</h1>
+           </div> 
+         <div class="flex justify-center mt-20 md:h-[495px] md:w-[1125px] flex-wrap md:flex-nowrap gap-[100px]"> 
+            <div>
+              <img class="h-[423px] w-[432px]" src="./image/Frame.png" alt="">
+            </div>
+          <div>
+                <div class="join join-vertical md:w-[500px]">
+                <div class="collapse collapse-arrow join-item border-base-300 border">
+                  <input type="radio" name="my-accordion-4" checked="checked" />
+                  <div class="collapse-title text-xl font-medium">What are the most important things I should
+                    know about riding a bike?</div>
+                  <div class="collapse-content">
+                    <p class="md:w[300px]">Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider. </p>
+                  </div>
+                </div>
+                <div class="collapse collapse-arrow join-item border-base-300 border">
+                  <input type="radio" name="my-accordion-4" />
+                  <div class="collapse-title text-xl font-medium">How can I tell if my helmet is old and I need a 
+                    new one?</div>
+                  <div class="collapse-content">
+                    <p>hello</p>
+                  </div>
+                </div>
+                <div class="collapse collapse-arrow join-item border-base-300 border">
+                  <input type="radio" name="my-accordion-4" />
+                  <div class="collapse-title text-xl font-medium">My bike has been in storage is it safe to ride?</div>
+                  <div class="collapse-content">
+                    <p>hello</p>
+                  </div>
+              </div>
+              <div class="collapse collapse-arrow join-item border-base-300 border">
+                <input type="radio" name="my-accordion-4" />
+                <div class="collapse-title text-xl font-medium">What rules should I follow when riding my bike?</div>
+                <div class="collapse-content">
+                  <p>hello</p>
+                </div>
+            </div>
+          </div>
+        </section>
+
+
+        <section class="md:h-[350px] mx-auto mt-[100px] md:gap-[400px] flex justify-center bg-accent-content flex-wrap md:flex-nowrap">
+          <div class=" mt-[100px] px-[50px] ">
+            <div class="text-white flex justify-start flex-wrap md:flex-nowrap mx-auto gap-5">
+              <p>Download Now</p>
+              <p>License</p>
+            </div>
+            <div class="text-white flex justify-start mt-5 gap-5 flex-wrap md:flex-nowrap">
+              <p>About</p>
+              <p>Features</p>
+              <p>Pricing</p>
+              <p>Careers</p>
+              <p>Help</p>
+              <p>Privacy Policy</p>
+            </div>
+            <div><p class="text-white mt-5">© 2020 bike. All rights reserved</p></div>
+          </div>
+          <div class="flex justify-center flex-col mt-8 mb-8 gap-5 flex-wrap md:flex-nowrap">
+            <p class="text-white">Get the app</p>
+            <img src="./image/footer/Layer 2.png" alt="">
+            <img src="./image/footer/Group.png" alt="">
+          </div>
+
+        </section>
+    </main>
+</body>
+</html>
